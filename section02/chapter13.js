@@ -1,4 +1,5 @@
 function add10(num) {
+  // Promise : 비동기 작업을 효율적으로 처리할수 있도록 도와주는 자바스크립트 객체
   const promise = new Promise((resolve, reject) => {
     // 비동기 작업 실행하는 함수
     // executor
